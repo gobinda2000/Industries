@@ -1,0 +1,76 @@
+================================================================================
+IMAGE RENAMING INSTRUCTIONS FOR GK PVT INDUSTRIES WEBSITE
+================================================================================
+
+Your website components are already configured to look for these image files:
+1. truck-1.jpg
+2. steel-products.jpg
+3. workshop.jpg
+4. building.jpg
+
+================================================================================
+CURRENT FILES IN THIS DIRECTORY:
+================================================================================
+
+Based on the image descriptions you provided earlier, here's what to rename:
+
+1. RENAME TO: truck-1.jpg
+   → This should be your orange truck image with PB GK 115 registration
+   → Currently: (Likely the .webp file or one of the Screenshots)
+
+2. RENAME TO: steel-products.jpg
+   → This should be your steel nuts/products image (hexagonal metal nuts)
+   → Currently: (One of the Screenshot PNG files)
+
+3. RENAME TO: workshop.jpg
+   → This should be your industrial workshop/manufacturing facility image
+   → Currently: (One of the Screenshot PNG files)
+
+4. RENAME TO: building.jpg
+   → This should be your GK Industries building exterior image
+   → Currently: (One of the Screenshot PNG files)
+
+================================================================================
+HOW TO RENAME (Windows):
+================================================================================
+
+Option 1: Using File Explorer
+1. Open the public/images folder in File Explorer
+2. Right-click on each image file
+3. Select "Rename"
+4. Type the new name (e.g., "truck-1.jpg")
+5. Press Enter
+
+Option 2: Using PowerShell (from public/images directory)
+Copy-paste these commands one by one after verifying which image is which:
+
+Rename-Item "6022f2c9-80f6-4984-abef-d30603938374-vdp.webp" "truck-1.webp"
+(Then convert .webp to .jpg if needed)
+
+OR manually rename the Screenshot files:
+Rename-Item "Screenshot 2025-11-22 105752.png" "truck-1.jpg"
+Rename-Item "Screenshot 2025-11-22 105828.png" "steel-products.jpg"
+Rename-Item "Screenshot 2025-11-22 105947.png" "workshop.jpg"
+
+================================================================================
+IMPORTANT NOTES:
+================================================================================
+
+✓ File names are case-sensitive (must be lowercase)
+✓ Use hyphen (-) not underscore (_)
+✓ For PNG files, you can keep .png extension OR convert to .jpg
+✓ The website will work with both .jpg, .png, and .webp formats
+✓ After renaming, refresh your browser to see the images
+
+================================================================================
+VERIFY WHICH IMAGE IS WHICH:
+================================================================================
+
+Before renaming, open each image to confirm:
+- truck-1.jpg → Orange truck with "PB GK 115" visible
+- steel-products.jpg → Metal nuts/hexagonal fasteners on white background
+- workshop.jpg → Industrial workshop with machinery and metal rods
+- building.jpg → GK Industries building with blue sign "G K INDUSTRIES"
+
+================================================================================
+
