@@ -6,7 +6,7 @@ export default function AOSInit() {
   useEffect(() => {
     // Dynamically import AOS only on client side
     import('aos').then((AOS) => {
-      AOS.init({
+      AOS.default.init({
         duration: 800,
         once: true,
         offset: 100,
